@@ -1,0 +1,27 @@
+body {
+  background: green;
+  display: flex;
+  justify-content: center;
+}
+
+#swirl-container {
+  width: 100vh;
+  display: grid;
+  place-items: center;
+  grid-template-areas:
+    "s1 . ."
+    ". s2 ."
+    ". . s3";
+}
+
+#swirl1 {
+  grid-area: s1;
+}
+
+#swirl2 {
+  grid-area: s2;
+}
+
+#swirl3 {
+  grid-area: s3;
+}
